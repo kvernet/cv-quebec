@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{banking}       % Style options: banking, casual, classic, etc.
+\moderncvcolor{black}         % Color options: blue, orange, green, etc.
+\nopagenumbers{}              % Suppress automatic page numbering
+
+% Packages and encoding
+\usepackage[scale=0.75]{geometry} % Adjust the page margins
+\usepackage[french]{babel}        % Set document language to French
+\usepackage[utf8]{inputenc}       % UTF-8 encoding
+\usepackage{lmodern}              % Better font rendering
+
+\input{macro}
+
+% Personal data
+\name{Kinson}{Vernet}
+\address{11055, avenue du Parc Georges}{Montréal (Québec), H1H AY9}
+\phone[mobile]{(+1) 438-722-1900}
+\email{kinson.vernet@gmail.com}
+
+%----------------------------------------------------------------------------------
+% Content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+% Name and contact info
+\makecvtitle
+
+% Profile section
+\section{Profil}
+\cvitem{}{\textbullet{} Quatre ans d'expérience en modélisation et simulation en physique des hautes énergies}
+\cvitem{}{\textbullet{} Trois ans en analyse de données (Python, ROOT CERN C++)}
+\cvitem{}{\textbullet{} Bonne compétence en méthode Monte Carlo et problème d’inversion}
+\cvitem{}{\textbullet{} Six ans en algorithmique et programmation informatique (C/C++, C\#, Java)}
+\cvitem{}{\textbullet{} Trois ans en gestion de bases de données relationnelles (SQL/MySQL)}
+\cvitem{}{\textbullet{} Bonne compétence en développement web (HTML, CSS, PHP, JavaScript, JSON, ...)}
+\cvitem{}{\textbullet{} Deux ans en programmation linéaire (optimisation sous contraintes)}
+\cvitem{}{\textbullet{} Rigoureux, motivé, esprit d'équipe}
+\cvitem{}{\textbullet{} Excellente capacité d'adaptation et production de résultats fiables}
+\cvitem{}{\textbullet{} Outils informatiques : Cmake, Bash, Git, LaTeX, Lua, Markdown, Slurm}
+
+% Experience section
+\section{Expériences professionnelles}
+\cventry{2023--2024}{Ingénieur en calcul scientifique, catégorie A}{\uca}{France}{}{
+  \begin{itemize}
+    \item Développer des codes de simulation Monte Carlo
+    \item Calibrer le détecteur à photons gamma
+    \item Faire évoluer le modèle du détecteur
+    \item Documenter la simulation
+    \item Déployer la simulation sur le centre de calcul
+  \end{itemize}}
+
+\cventry{2019--2022}{Doctorant contractuel}{\uca}{France}{}{
+  \begin{itemize}
+    \item Radiographier les volcans
+    \item Étudier précisement le bruit de fond
+    \item Etudier les effets systématiques en radiographie des volcans
+    \item Tester le programme développé sur le volcan puy-de-Dôme
+  \end{itemize}}
+
+\cventry{2019--2024}{Enseignant d'algorithmique et de programmation en C/C++}{\ueh}{Haïti}{}{
+  \begin{itemize}
+    \item Programmation en C
+    \item Algorithmique et structure de données
+    \item Pointeurs et allocation dynamique de la mémoire
+    \item Introduction à la programmation orientée objet (P.O.O) en C++
+  \end{itemize}}
+
+\cventry{2012--2015}{Enseignant de mathématiques, physique et programmation linéaire}{\unif}{Haïti}{}{
+  \begin{itemize}
+    \item Fonctions, dérivées, intégrales, matrices
+    \item Équations différentielles ordinaires
+    \item Cinématique et dynamique newtonienne
+    \item Statistiques, concepts de modélisation
+    \item Algorithme de simplex et problèmes d’optimisation
+  \end{itemize}}
+
+\cventry{2012--2015}{Ingénieur programmeur informatique}{\usjldd}{Haïti}{}{
+  \begin{itemize}
+    \item Concevoir des applications windows (C\# \& MySQL)
+    \item Assurer la maintenance des ordinateurs
+    \item Former le personnel
+  \end{itemize}}
+
+% Education section
+\section{Formation}
+\cventry{2022}{Doctorat en physique des particules}{\uca}{France}{}{}
+\cventry{2018}{Master en physique}{Université d'Etat d'Haïti}{Haïti}{}{}
+\cventry{2014}{Diplôme de génie électromécanique}{Université d'Etat d'Haïti}{Haïti}{}{}
+
+% Rewards section
+\section{Concours}
+\cventry{2019}{Bourse de l'école doctorale des sciences fondamentales}{\uca}{France}{}{}
+
+% Volunteering section
+\section{Stages de recherche}
+\cventry{04/2019--09/2019}{Radiographie des volcans}{\lpc}{France}{}{}
+\cventry{05/2018--07/2018 \& 09/2018--12/2018}{Détection de l’antimatière}{\ipnlcern}{France \& Suisse}{}{}
+
+% Languages section
+\section{Langues}
+\cventry{}{Français (TCF)}{}{}{}{
+  \begin{itemize}
+    \item Compréhension orale: B2
+    \item Compréhension écrite: C1
+    \item Expréssion orale: C1
+    \item Expréssion écrite: C1
+  \end{itemize}}
+\cventry{}{Anglais}{}{}{}{
+  \begin{itemize}
+    \item Compréhension: B2
+    \item Expréssion: B1
+  \end{itemize}}
+
+
+\vspace{1cm}
+
+% Footer
+\cvitem{}{\textit{Des références vous seront fournies sur demande}.}
+
+\end{document}
+
